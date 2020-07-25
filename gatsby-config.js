@@ -1,10 +1,4 @@
 module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-theme-blog`,
-      options: {},
-    },
-  ],
   // Customize your site metadata:
   siteMetadata: {
     title: `Andrew Aquino`,
@@ -21,4 +15,16 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {},
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+  ],
 }
