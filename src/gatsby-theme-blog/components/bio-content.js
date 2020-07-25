@@ -1,22 +1,8 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-
-/**
- * Change the content to add your own bio
- */
+import { useSiteMetadata } from "../../hooks/use-site-metadata"
 
 export default function Bio() {
-  const data = useStaticQuery(graphql`
-    query MetadataQuery {
-      site {
-        siteMetadata {
-          title
-          author
-          description
-        }
-      }
-    }
-  `)
+  const { description } = useSiteMetadata()
 
-  return <>{data.site.siteMetadata.description}</>
+  return <>{description}</>
 }
