@@ -1,18 +1,22 @@
 import React from "react"
-import { Styled } from "theme-ui"
+import { useStaticQuery, graphql } from "gatsby"
 
 /**
  * Change the content to add your own bio
  */
 
 export default function Bio() {
-  return (
-    <>
-      This is where <Styled.a href="http://example.com/">your name</Styled.a>
-      {` `}
-      goes.
-      <br />
-      Or whatever, you make the rules.
-    </>
-  )
+  const data = useStaticQuery(graphql`
+    query MetadataQuery {
+      site {
+        siteMetadata {
+          title
+          author
+          description
+        }
+      }
+    }
+  `)
+
+  return <>{data.site.siteMetadata.description}</>
 }
