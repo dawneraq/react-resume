@@ -13,6 +13,14 @@ module.exports = {
         name: `github`,
         url: `https://github.com/dawneraq`,
       },
+      {
+        name: `codepen`,
+        url: `https://codepen.io/dawneraq`,
+      },
+      {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/in/dawneraq/`,
+      },
     ],
   },
   plugins: [
