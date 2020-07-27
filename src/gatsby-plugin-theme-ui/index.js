@@ -9,4 +9,16 @@ export default {
       mt: 4,
     },
   },
+  colors: {
+    primary: "#843ff3",
+  },
+  buttons: {
+    primary: {
+      color: "background",
+      bg: "primary",
+      "&:hover": {
+        bg: "text",
+      },
+    },
+  },
 }
