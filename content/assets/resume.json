@@ -1,0 +1,196 @@
+{
+  "basics": {
+    "name": "Andrew Aquino",
+    "email": "dawneraq@gmail.com",
+    "siteURL": "https://dawneraq.github.io",
+    "location": "Long Beach, CA"
+  },
+  "education": {
+    "school": "Rensselaer Polytechnic Institute",
+    "startDate": "Fall 2014",
+    "endDate": "Spring 2018",
+    "degree": "Bachelor of Science, Computer Science",
+    "gpa": 3.4,
+    "relevantCoursework": [
+      "Interactive Visualization",
+      "Art & Code & Interactivity"
+    ]
+  },
+  "workExperience": [
+    {
+      "company": "Tallan",
+      "position": "Senior UX Consultant",
+      "startDate": "July 2018",
+      "endDate": "June 2020",
+      "details": [
+        "Designed and redesigned web application UI/UX from user flows to wireframes and high-fidelity mockups for various clients, including Valassis Digital and Experian.",
+        "Conducted user testing to validate designs.",
+        "Implemented designs in both AngularJS and Angular."
+      ]
+    },
+    {
+      "company": "Troy Shirt Co.",
+      "position": "Web Developer Intern",
+      "startDate": "November 2017",
+      "endDate": "March 2018",
+      "details": [
+        "Created an AngularJS/NodeJS shipping label editor with PDF.js."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "position": "Applications Developer Intern",
+      "startDate": "June 2017",
+      "endDate": "August 2017",
+      "details": [
+        "Prototyped CSS animations on the device recommender page for frontend overhaul of att.com.",
+        "Placed 2nd in Intern Coding Challenge to build a company messenger chatbot, and within top 5 for Best Code, Best Pitch, and Best Video.",
+        "Served as intern Scrum master, set up NodeJS boilerplate code, created MongoDB database and API for user information, and presented sales pitch."
+      ]
+    },
+    {
+      "company": "Capital Region Otolaryngology",
+      "position": "Web Developer",
+      "startDate": "January 2017",
+      "endDate": "May 2017",
+      "details": [
+        "Redesigned and developed a public-facing website and logo for an ear, neck, and throat medical practice."
+      ]
+    },
+    {
+      "company": "3M Health Information Systems",
+      "position": "Software Engineering Intern",
+      "startDate": "May 2016",
+      "endDate": "August 2016",
+      "details": [
+        "Designed and developed ElasticSearch Nexus, an internal dashboard application which displays visualizations of process log data.",
+        "Created UIs to add, modify, and delete user accounts and visualizations using an in-house AngularJS framework."
+      ]
+    },
+    {
+      "company": "Autotask",
+      "position": "Software Development Intern",
+      "startDate": "June 2015",
+      "endDate": "August 2015",
+      "details": [
+        "Refactored JavaScript and C# code with Gulp.js for an IT business management ASP.NET software-as-a-service in accordance with corporate style guides."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Lune",
+      "date": "Fall 2017",
+      "recipient": "Computer Graphics",
+      "details": [
+        "Created a Three.js webpage that displays a model of the Moon in stereoscopic 3D on Google Cardboard."
+      ]
+    },
+    {
+      "name": "Chicken Co-Op",
+      "date": "Fall 2017",
+      "recipient": "HackRPI",
+      "details": [
+        "Won Best Game for an Angular desktop-mobile party game consisting of a series of cooperative microgames.",
+        "Organized the microgame architecture, designed the UI, and wrote a NodeJS script to allow communication between an Arduino and Firebase."
+      ]
+    },
+    {
+      "name": "Shuttle Signups",
+      "date": "Spring 2017",
+      "recipient": "Rensselaer Center for Open Source",
+      "details": [
+        "Built upon the front-end of a real-time MEAN stack registration portal for RPI community members and guests to sign up for special shuttles."
+      ]
+    },
+    {
+      "name": "Menuoso",
+      "date": "Spring 2017",
+      "recipient": "Web Science Systems Development",
+      "details": [
+        "Created a MEAN stack web application to generate digital menus that are easy to edit, arrange, and style."
+      ]
+    },
+    {
+      "name": "HackaMatch",
+      "date": "Spring 2017",
+      "recipient": "HackRPI",
+      "details": [
+        "Designed and built W3.CSS frontend for a website that enables hackathon participants to build groups based on skill matchups."
+      ]
+    },
+    {
+      "name": "FixxSquared",
+      "date": "Fall 2016",
+      "recipient": "Web Systems Development",
+      "details": [
+        "Developed a secure web application to improve upon RPI's existing maintenance and repair service for on-campus residents using an Apache, PostgreSQL, PHP, and JavaScript stack."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "keywords": ["JavaScript", "Python", "C", "C++", "Java", "PHP", "SQL"]
+    },
+    {
+      "name": "Markup",
+      "keywords": [
+        "HTML (Pug)",
+        "CSS (SCSS, SASS, Less)",
+        "Markdown",
+        "Liquid",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Programming practices",
+      "keywords": ["Git", "Agile development"]
+    },
+    {
+      "name": "Web frameworks/libraries",
+      "keywords": [
+        "React",
+        "Angular",
+        "AngularJS",
+        "D3.js",
+        "jQuery",
+        "Jekyll",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Graphic design",
+      "keywords": [
+        "Figma",
+        "Sketch",
+        "Adobe Photoshop",
+        "Illustrator",
+        "InVision",
+        "Zeplin"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["Proficient in Spanish", "familiar with Mandarin Chinese"]
+    }
+  ],
+  "activitiesAndHonors": [
+    {
+      "name": "Tau Epsilon Phi Fraternity, Epsilon Iota Chapter",
+      "details": [
+        {
+          "name": "House Computing Chairman",
+          "startDate": "Spring 2015",
+          "endDate": "Fall 2017"
+        },
+        {
+          "name": "Rush Marketing Chairman",
+          "startDate": "Fall 2016",
+          "endDate": "Fall 2017"
+        }
+      ]
+    },
+    { "name": "Eagle Scout", "startDate": "November 2013" }
+  ]
+}
