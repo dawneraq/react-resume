@@ -23,9 +23,9 @@
       "startDate": "July 2018",
       "endDate": "June 2020",
       "details": [
-        "Designed and redesigned web application UI/UX from user flows to wireframes and high-fidelity mockups for various clients, including Valassis Digital and Experian.",
+        "Designed and redesigned web application UI/UX from user flows to wireframes and prototypes for various clients, including Valassis Digital and Experian.",
         "Conducted user testing to validate designs.",
-        "Implemented designs in both AngularJS and Angular."
+        "Implemented designs with both AngularJS and Angular."
       ]
     },
     {
@@ -34,7 +34,7 @@
       "startDate": "November 2017",
       "endDate": "March 2018",
       "details": [
-        "Created an AngularJS/NodeJS shipping label editor with PDF.js."
+        "Created an AngularJS shipping label editor to reduce order fulfillment times."
       ]
     },
     {
@@ -43,7 +43,7 @@
       "startDate": "June 2017",
       "endDate": "August 2017",
       "details": [
-        "Prototyped CSS animations on the device recommender page for frontend overhaul of att.com.",
+        "Prototyped CSS animations with AngularJS on the device recommender page for frontend overhaul of att.com.",
         "Placed 2nd in Intern Coding Challenge to build a company messenger chatbot, and within top 5 for Best Code, Best Pitch, and Best Video.",
         "Served as intern Scrum master, set up NodeJS boilerplate code, created MongoDB database and API for user information, and presented sales pitch."
       ]
@@ -54,7 +54,7 @@
       "startDate": "January 2017",
       "endDate": "May 2017",
       "details": [
-        "Redesigned and developed a public-facing website and logo for an ear, neck, and throat medical practice."
+        "Redesigned and developed a public-facing Jekyll website and logo for an ear, neck, and throat medical practice."
       ]
     },
     {
@@ -73,7 +73,7 @@
       "startDate": "June 2015",
       "endDate": "August 2015",
       "details": [
-        "Refactored JavaScript and C# code with Gulp.js for an IT business management ASP.NET software-as-a-service in accordance with corporate style guides."
+        "Refactored JavaScript and C# code with gulp.js for an IT business management software-as-a-service in accordance with corporate style guides."
       ]
     }
   ],
@@ -100,7 +100,7 @@
       "date": "Spring 2017",
       "recipient": "Rensselaer Center for Open Source",
       "details": [
-        "Built upon the front-end of a real-time MEAN stack registration portal for RPI community members and guests to sign up for special shuttles."
+        "Built upon the frontend of a real-time MEAN stack registration portal for RPI community members to sign up for shuttles to the mall and airport."
       ]
     },
     {
