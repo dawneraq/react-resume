@@ -1,6 +1,7 @@
 {
   "basics": {
     "name": "Andrew Aquino",
+    "headline": "Frontend Software Engineer",
     "email": "dawneraq@gmail.com",
     "siteURL": "https://dawneraq.github.io",
     "location": "Long Beach, CA"
@@ -23,8 +24,8 @@
       "startDate": "July 2018",
       "endDate": "June 2020",
       "details": [
-        "Designed and redesigned web application UI/UX from user flows to wireframes and prototypes for various clients, including Valassis Digital and Experian.",
-        "Conducted user testing to validate designs.",
+        "Designed and redesigned web application UI/UX from user flows to interactive prototypes for various clients including Valassis Digital and Experian.",
+        "Introduced user-centric design processes to development team.",
         "Implemented designs with both AngularJS and Angular."
       ]
     },
@@ -34,7 +35,7 @@
       "startDate": "November 2017",
       "endDate": "March 2018",
       "details": [
-        "Created an AngularJS shipping label editor to reduce order fulfillment times."
+        "Created an AngularJS drag-and-drop shipping label editor that reduced order fulfillment time by 25%."
       ]
     },
     {
@@ -43,7 +44,7 @@
       "startDate": "June 2017",
       "endDate": "August 2017",
       "details": [
-        "Prototyped CSS animations with AngularJS on the device recommender page for frontend overhaul of att.com.",
+        "Prototyped CSS animations with AngularJS on att.com's device recommender page as part of an initiative to convert 40% of device upgrades to online.",
         "Placed 2nd in Intern Coding Challenge to build a company messenger chatbot, and within top 5 for Best Code, Best Pitch, and Best Video.",
         "Served as intern Scrum master, set up NodeJS boilerplate code, created MongoDB database and API for user information, and presented sales pitch."
       ]
@@ -92,7 +93,7 @@
       "recipient": "HackRPI",
       "details": [
         "Won Best Game for an Angular desktop-mobile party game consisting of a series of cooperative microgames.",
-        "Organized the microgame architecture, designed the UI, and wrote a NodeJS script to allow communication between an Arduino and Firebase."
+        "Designed and built the UI, and wrote a NodeJS script to allow communication between an Arduino and Firebase."
       ]
     },
     {
@@ -131,7 +132,16 @@
   "skills": [
     {
       "name": "Programming languages",
-      "keywords": ["JavaScript", "Python", "C", "C++", "Java", "PHP", "SQL"]
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "C",
+        "C++",
+        "Java",
+        "PHP",
+        "SQL"
+      ]
     },
     {
       "name": "Markup",
@@ -144,13 +154,11 @@
       ]
     },
     {
-      "name": "Programming practices",
-      "keywords": ["Git", "Agile development"]
-    },
-    {
-      "name": "Web frameworks/libraries",
+      "name": "Frameworks & Libraries",
       "keywords": [
         "React",
+        "Gatsby",
+        "Jest",
         "Angular",
         "AngularJS",
         "D3.js",
@@ -160,7 +168,11 @@
       ]
     },
     {
-      "name": "Graphic design",
+      "name": "Programming practices",
+      "keywords": ["Git", "Agile development (Scrum)"]
+    },
+    {
+      "name": "Graphic/UI design",
       "keywords": [
         "Figma",
         "Sketch",
