@@ -157,6 +157,7 @@
       "name": "Frameworks & Libraries",
       "keywords": [
         "React",
+        "Redux",
         "Gatsby",
         "Jest",
         "Angular",
