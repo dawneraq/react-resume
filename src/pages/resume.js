@@ -1,5 +1,4 @@
 import React from "react"
-// import Header from "../gatsby-theme-blog/components/header"
 import SEO from "../gatsby-theme-blog/components/seo"
 import { graphql } from "gatsby"
 
@@ -43,14 +42,14 @@ const Basics = ({ name, headline, location, email, siteURL }) => (
         <h1 className="text-6xl small-caps">{name}</h1>
         <strong className="text-xl">{headline}</strong>
       </div>
-      <div className="flex flex-col text-right">
+      <div className="flex flex-col text-right text-lg">
         <a
           href={`mailto:${email}`}
-          className="underline font-bold text-purple-600"
+          className="underline font-bold text-indigo-400"
         >
           {email}
         </a>
-        <a href={siteURL} className="underline font-bold text-purple-600">
+        <a href={siteURL} className="underline font-bold text-indigo-400">
           {siteURL}
         </a>
         <p>{location}</p>
