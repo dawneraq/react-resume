@@ -16,7 +16,7 @@ const Resume = ({ data }) => {
         href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
         rel="stylesheet"
       />
-      <main className="py-3 px-6">
+      <main className="py-1 px-6">
         <Basics {...resumeData.basics} />
         {/* TODO This commented line doesn't apply 3-column layout to print styles */}
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-2"> */}
@@ -27,6 +27,7 @@ const Resume = ({ data }) => {
           <div className="col-auto">
             <Skills {...resumeData} />
             <Education {...resumeData.education} />
+            <Honors {...resumeData} />
             <Projects {...resumeData} />
           </div>
         </div>
@@ -36,7 +37,7 @@ const Resume = ({ data }) => {
 }
 
 const Basics = ({ name, headline, location, email, siteURL }) => (
-  <section className="mb-4">
+  <section className="mb-3">
     <div className="flex justify-between items-center">
       <div>
         <h1 className="text-6xl small-caps">{name}</h1>
@@ -87,11 +88,11 @@ const Work = ({ workExperience }) => (
 )
 
 const Skills = ({ skills }) => (
-  <section className="mb-5">
+  <section className="mb-4">
     <h2 className="text-2xl mb-1">Skills</h2>
     <ul>
       {skills.map(skill =>
-        skill.name !== "Markup" ? (
+        skill.name !== "Markup" && skill.name !== "Tools" ? (
           <li key={skill.name}>
             <strong className="mb-0">{skill.name}</strong>
             <ul className="mt-0 ml-0">
@@ -108,8 +109,6 @@ const Skills = ({ skills }) => (
   </section>
 )
 
-// TODO Where to put Eagle Scout?
-
 const Education = ({
   school,
   degree,
@@ -118,7 +117,7 @@ const Education = ({
   gpa,
   relevantCoursework,
 }) => (
-  <section className="mb-5">
+  <section className="mb-4">
     <h2 className="text-2xl mb-1">Education</h2>
     <strong>{school}</strong>
     <p>
@@ -127,6 +126,19 @@ const Education = ({
     <p className="text-sm">
       {startDate} &ndash; {endDate}
     </p>
+  </section>
+)
+
+const Honors = ({ activitiesAndHonors }) => (
+  <section className="mb-4">
+    <h2 className="text-2xl mb-1">Honors</h2>
+    {/* Only include Eagle Scout */}
+    {activitiesAndHonors.slice(1).map(honor => (
+      <>
+        <strong>{honor.name}</strong>
+        <p className="text-sm">{honor.date}</p>
+      </>
+    ))}
   </section>
 )
 
@@ -171,7 +183,7 @@ export const query = graphql`
               name
               startDate
             }
-            startDate
+            date
             name
           }
           projects {

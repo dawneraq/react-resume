@@ -211,6 +211,6 @@
         }
       ]
     },
-    { "name": "Eagle Scout", "startDate": "November 2013" }
+    { "name": "Eagle Scout", "date": "November 2013" }
   ]
 }
