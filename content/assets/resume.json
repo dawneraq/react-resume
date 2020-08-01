@@ -8,9 +8,9 @@
   },
   "education": {
     "school": "Rensselaer Polytechnic Institute",
-    "startDate": "Fall 2014",
-    "endDate": "Spring 2018",
-    "degree": "Bachelor of Science, Computer Science",
+    "startDate": "2014",
+    "endDate": "2018",
+    "degree": "BSc Computer Science",
     "gpa": 3.4,
     "relevantCoursework": [
       "Interactive Visualization",
@@ -25,8 +25,9 @@
       "endDate": "June 2020",
       "details": [
         "Designed and redesigned web application UI/UX from user flows to interactive prototypes for various clients including Valassis Digital and Experian.",
-        "Introduced user-centric design processes to development team.",
-        "Implemented designs with both AngularJS and Angular."
+        "Led development team in user-centric design processes.",
+        "Implemented designs with both AngularJS and Angular.",
+        "Built upon D3.js data visualizations."
       ]
     },
     {
@@ -46,7 +47,7 @@
       "details": [
         "Prototyped CSS animations with AngularJS on att.com's device recommender page as part of an initiative to convert 40% of device upgrades to online.",
         "Placed 2nd in Intern Coding Challenge to build a company messenger chatbot, and within top 5 for Best Code, Best Pitch, and Best Video.",
-        "Served as intern Scrum master, set up NodeJS boilerplate code, created MongoDB database and API for user information, and presented sales pitch."
+        "Served as intern Scrum master, set up Node.js boilerplate code, created MongoDB database and API for user information, and presented sales pitch."
       ]
     },
     {
@@ -80,21 +81,22 @@
   ],
   "projects": [
     {
+      "name": "FretZone",
+      "date": "April 2020",
+      "recipient": "Open Source",
+      "description": "Recreating Guitar Pro tab editor to learn React/Redux."
+    },
+    {
       "name": "Lune",
       "date": "Fall 2017",
-      "recipient": "Computer Graphics",
-      "details": [
-        "Created a Three.js webpage that displays a model of the Moon in stereoscopic 3D on Google Cardboard."
-      ]
+      "recipient": "Computer Graphics Class",
+      "description": "Rendered a stereoscopic 3D model of the Moon on Google Cardboard using three.js."
     },
     {
       "name": "Chicken Co-Op",
       "date": "Fall 2017",
-      "recipient": "HackRPI",
-      "details": [
-        "Won Best Game for an Angular desktop-mobile party game consisting of a series of cooperative microgames.",
-        "Designed and built the UI, and wrote a NodeJS script to allow communication between an Arduino and Firebase."
-      ]
+      "recipient": "HackRPI 2017",
+      "description": "Won Best Game for an Angular cooperative mobile party game."
     },
     {
       "name": "Shuttle Signups",
@@ -133,8 +135,11 @@
     {
       "name": "Programming languages",
       "keywords": [
-        "JavaScript",
+        "ES6 JavaScript",
         "TypeScript",
+        "HTML/Pug",
+        "CSS/Sass",
+        "GraphQL",
         "Python",
         "C",
         "C++",
@@ -162,22 +167,24 @@
         "Jest",
         "Angular",
         "AngularJS",
+        "Node.js",
         "D3.js",
+        "three.js",
         "jQuery",
         "Jekyll",
         "Bootstrap"
       ]
     },
     {
-      "name": "Programming practices",
-      "keywords": ["Git", "Agile development (Scrum)"]
+      "name": "Tools",
+      "keywords": ["Git", "gulp", "Netlify"]
     },
     {
-      "name": "Graphic/UI design",
+      "name": "Design",
       "keywords": [
         "Figma",
         "Sketch",
-        "Adobe Photoshop",
+        "Photoshop",
         "Illustrator",
         "InVision",
         "Zeplin"
