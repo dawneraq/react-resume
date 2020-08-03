@@ -37,21 +37,18 @@ const Resume = ({ data }) => {
 
 const Basics = ({ name, headline, location, email, siteURL }) => (
   <section className="mb-3">
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-stretch">
       <div>
-        <h1 className="text-6xl small-caps">{name}</h1>
+        <h1 className="text-6xl">{name}</h1>
         <strong className="text-xl">{headline}</strong>
       </div>
-      <div className="flex flex-col text-right text-lg">
-        <a
-          href={`mailto:${email}`}
-          className="underline font-bold text-indigo-400"
-        >
-          {email}
-        </a>
-        <a href={siteURL} className="underline font-bold text-indigo-400">
-          {siteURL}
-        </a>
+      <div className="flex flex-col justify-between text-right text-lg">
+        <div className="flex flex-col mt-3 underline font-bold text-purple-500">
+          <a href={`mailto:${email}`}>{email}</a>
+          <a href={siteURL} target="_blank" rel="noopener noreferrer">
+            {siteURL}
+          </a>
+        </div>
         <p>{location}</p>
       </div>
     </div>
