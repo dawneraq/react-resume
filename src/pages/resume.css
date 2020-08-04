@@ -1,3 +1,8 @@
 .comma-separated-item:not(:last-child)::after {
   content: ", ";
 }
+
+.resume-page {
+  width: 8.5in;
+  margin: 0 auto;
+}

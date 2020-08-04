@@ -1,6 +1,6 @@
 import React from "react"
 import SEO from "../gatsby-theme-blog/components/seo"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import "./resume.css"
 
@@ -15,7 +15,7 @@ const Resume = ({ data }) => {
         href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
         rel="stylesheet"
       />
-      <main className="py-1 px-6">
+      <main className="resume-page py-1 px-6">
         <Basics {...resumeData.basics} />
         {/* TODO This commented line doesn't apply 3-column layout to print styles */}
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-2"> */}
@@ -39,7 +39,9 @@ const Basics = ({ name, headline, location, email, siteURL }) => (
   <section className="mb-3">
     <div className="flex justify-between items-stretch">
       <div>
-        <h1 className="text-6xl">{name}</h1>
+        <Link to={`/`}>
+          <h1 className="text-6xl">{name}</h1>
+        </Link>
         <strong className="text-xl">{headline}</strong>
       </div>
       <div className="flex flex-col justify-between text-right text-lg">
@@ -128,13 +130,15 @@ const Education = ({
 const Honors = ({ activitiesAndHonors }) => (
   <section className="mb-4">
     <h2 className="text-2xl mb-1">Honors</h2>
-    {/* Only include Eagle Scout */}
-    {activitiesAndHonors.slice(1).map(honor => (
-      <>
-        <strong>{honor.name}</strong>
-        <p className="text-sm">{honor.date}</p>
-      </>
-    ))}
+    <ul>
+      {/* Only include Eagle Scout */}
+      {activitiesAndHonors.slice(1).map(honor => (
+        <li key={honor.name}>
+          <strong>{honor.name}</strong>
+          <p className="text-sm">{honor.date}</p>
+        </li>
+      ))}
+    </ul>
   </section>
 )
 
