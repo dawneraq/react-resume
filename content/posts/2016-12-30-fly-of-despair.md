@@ -1,11 +1,12 @@
 ---
-layout: post
-title:  "Fly of Despair"
+title: "Fly of Despair"
+date: 2016-12-30
 projects: true
 tag:
-- art
+  - art
 tagline: Disillusionment can be fun!
 ---
+
 [Here's][fly-of-despair] a little something I put together for my Media Studio: Imaging final. It's pretty buggy, looks terrible on phone screens, and will make your browser poop itself if you scroll too far down the rabbit hole--but I'm backing down from optimizing it for now because it's already pretty entertaining. I hope that you get a kick out of it and that the theme isn't too hard to discern.
 
 [![How much do you want Squidward to suffer?](/assets/images/despair.png)][fly-of-despair]
@@ -15,6 +16,7 @@ I have [Rachel Smith][parallax-codepen] to thank for much of the code; namely an
 [The original project this was based on][your-home], a piece of 'net art' in which I wrote JavaScript to parse an XML file for the same 5 post data forever whenever the bottom of the page is reached, was solely a style-for-style ripoff of Facebook's homepage. Before settling on the page's current functionality, I'd toyed with the ideas of randomly inserting [Zalgo text][zalgo-text] the farther the user scrolls, or a similar effect with faces that appear in the images. My scattered college student brain did not make adequate time for those things.
 
 ### Future features
+
 - Efficiency
 - Mobile-responsiveness
 - Updating the Notifications icon in the navbar according to the notification number displayed in the page title

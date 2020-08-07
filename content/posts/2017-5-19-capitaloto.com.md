@@ -1,22 +1,24 @@
 ---
-layout: post
-title:  "CapitalOto.com"
+title: "CapitalOto.com"
+date: 2017-05-19
 projects: true
 tag:
-- work
-- design
+  - work
+  - design
 ---
+
 Shortly before my first internship ended, a software architect under whom I worked told me,
 
->Being a software engineer a little funny. It's not like being a building architect or a carpenter, where you can drive by a house and tell your kid, "I built that!"
+> Being a software engineer a little funny. It's not like being a building architect or a carpenter, where you can drive by a house and tell your kid, "I built that!"
 >
->With websites it's more like, "Well I didn't build this, but I fixed a lot of bugs in it."
+> With websites it's more like, "Well I didn't build this, but I fixed a lot of bugs in it."
 
 ## I got to break the mold and rebuild an entire website for a client.
 
 In January, I received a certain job alert from the wonderful CS Department Secretary Chris Coonrad: A local ear, nose, and throat practice was looking for (and willing to pay) "an undergraduate student, versed in website design, to help us update our current webpage".
 
 ![original site](/assets/images/site_old.png){: title="Eugh." }
+
 <figcaption class="caption">The original site, last updated circa 2012.</figcaption>
 
 A quick look at the existing website showed that it needed some serious work&mdash;the secondary navigation was nearly invisible; too many pages were dry walls of text; similar information that could've fit in one place was located in separate subpages. Most importantly, the two main functions that the site was supposed to perform, scheduling appointments and guiding the user to their Patient Portal, did not make themselves abundantly distinct on the homepage.
@@ -24,9 +26,10 @@ A quick look at the existing website showed that it needed some serious work&mda
 Check out the old site yourself [on the Wayback Machine](https://web.archive.org/web/20170127015216/http://capitaloto.com/), if you dare.
 
 ![audiology](/assets/images/audiology.png){: title="the horror" }
+
 <figcaption class="caption">Not pictured: the maze of medical literature accessible from the sidebar on the left.</figcaption>
 
-*Damn,* I thought. *What a great opportunity! Tons of extremely qualified students are definitely gonna apply for this...Oh well, I might as well try.* So I sent over my newly HTML-migrated resume and promptly forgot about it.
+_Damn,_ I thought. _What a great opportunity! Tons of extremely qualified students are definitely gonna apply for this...Oh well, I might as well try._ So I sent over my newly HTML-migrated resume and promptly forgot about it.
 
 Five months later, I'd rebuilt Capital Otolaryngology's website from the ground up with Jekyll, designed them a completely new logo, and written up a pretty detailed README containing maintenance instructions for self-described "non-computer people". Also, the practice administrator told me that I was one of only about three people who'd sent in their resume for the requisition. Go figure.
 
@@ -35,11 +38,13 @@ Five months later, I'd rebuilt Capital Otolaryngology's website from the ground 
 ### Site
 
 ![site map](/assets/images/site_map.jpeg)
+
 <figcaption class="caption">The site requirements, as defined by one of the practice administrators.</figcaption>
 
 Overall, the content was to remain mostly the same, just with a more modern format. Other than the sprawling copy in the Patient Learning section, the information architecture was pretty simple.
 
 ![homepage mockup](/assets/images/homepage_mockup.jpeg)
+
 <figcaption class="caption">The homepage mockup I was handed.</figcaption>
 
 With the new site, CapitalOto wanted to make sure that it was easy to navigate to the practice's Patient Portal, where patients and doctors exchange medical data like checkup results and suggestions for followup procedures. The existing site had no such link.
@@ -59,9 +64,9 @@ In general, there seem to be only two possible directions when it comes to a log
 
 ![CapitalOto disemboided parts logo](/assets/images/crog_logo_old.jpeg)
 
-CapitalOto was no exception to either rule. Pictured is one of their pre-2012 logos, printed on their stationery. 
+CapitalOto was no exception to either rule. Pictured is one of their pre-2012 logos, printed on their stationery.
 
-One logo idea put forth by the practice was a map of the Capital Region, with stars indicating the practice's three locations. That concept might have given the wrong impression that Capital Region Otolaryngology *only* serves patients within that region&mdash;some patients reside in other areas like Vermont.
+One logo idea put forth by the practice was a map of the Capital Region, with stars indicating the practice's three locations. That concept might have given the wrong impression that Capital Region Otolaryngology _only_ serves patients within that region&mdash;some patients reside in other areas like Vermont.
 
 ![some logo ideas](/assets/images/crog_logo_ideas.jpeg)
 
@@ -77,12 +82,15 @@ The concept we ended up going with was to highlight the ear, nose, and throat of
 ## Final deliverables
 
 ![new site](/assets/images/site_new.png)
+
 <figcaption class="caption">A landing page that will actually make visitors want to continue.</figcaption>
 
 ![mobile map](/assets/images/map_mobile.png){: title="delicious responsiveness" }
+
 <figcaption class="caption">Feeling Responsive, the Jekyll template I used, is true to its name.</figcaption>
 
 ![new logo](https://github.com/dawneraq/capitaloto/blob/master/assets/img/capitaloto_logo.png?raw=true)
+
 <figcaption class="caption">Perhaps the most challenging part of the whole undertaking.</figcaption>
 
 ## What I learned
