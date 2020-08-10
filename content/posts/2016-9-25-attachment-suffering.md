@@ -1,13 +1,14 @@
 ---
-layout: post
-title:  "Attachment Is the Root of All Suffering"
+title: "Attachment Is the Root of All Suffering"
+date: 2016-09-25
 projects: true
 tag:
-- art
+  - art
 image: /assets/images/attachment-rgb-thumbnail.jpg
 ---
 
-<div id="attachment-suffering-toolbar" class="osd-toolbar"></div>
+<!-- TODO Fix OpenSeadragon embed -->
+<!-- <div id="attachment-suffering-toolbar" class="osd-toolbar"></div>
 <div id="attachment-suffering" class="osd"></div>
 <script src="/assets/js/openseadragon/openseadragon.min.js"></script>
 <script type="text/javascript">
@@ -18,7 +19,7 @@ image: /assets/images/attachment-rgb-thumbnail.jpg
         showNavigator: true,
         toolbar: "attachment-suffering-toolbar"
     });
-</script>
+</script> -->
 
 This is a collage I made for ARTS-1020 Media Studio: Imaging. As a portrait of my girlfriend Kayla that's also a study of light values, it explores the feelings of anxiety that come with love, and having to accept the possibility that the object of your desire can be lost or destroyed.
 
@@ -27,7 +28,8 @@ It was an effective exercise in learning how to use Photoshop, possibly because 
 Try zooming into the image above! The viewer is [OpenSeadragon](https://openseadragon.github.io/), a nifty open-source JavaScript-only zoomable image viewer that's pretty easy to set up.
 
 ## Shout-outs to
-- [@tremulant_](https://www.instagram.com/tremulant_/)
+
+- [@tremulant\_](https://www.instagram.com/tremulant_/)
 - [Fugue](https://fugue.bandcamp.com/album/siblings-ep)
 - The Alhambra
 - [Meshuggah](https://youtu.be/Vq3r14KP6yA?list=PLnrVU4Fh6jSsOzwrNQJgGfXKrkI7aKy99)

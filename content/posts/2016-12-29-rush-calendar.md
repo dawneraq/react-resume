@@ -1,17 +1,17 @@
 ---
-layout: post
 title: "Rush Calendar"
+date: 2016-12-29
 projects: true
 tag:
-- TEP
-- design
+  - TEP
+  - design
 external-image: true
 image: https://raw.githubusercontent.com/dawneraq/gh-pages-resources/master/calendar-thumbnail.png
 ---
 
 <!-- TODO link calendar thumbnail in Front Matter for Open Graph -->
-
-<div id="rush-calendar-toolbar" class="osd-toolbar"></div>
+<!-- TODO Fix OpenSeadragon embed -->
+<!-- <div id="rush-calendar-toolbar" class="osd-toolbar"></div>
 <div id="rush-calendar" class="osd"></div>
 <script src="/assets/js/openseadragon/openseadragon.min.js"></script>
 <script type="text/javascript">
@@ -22,11 +22,11 @@ image: https://raw.githubusercontent.com/dawneraq/gh-pages-resources/master/cale
         showNavigator: true,
         toolbar: "rush-calendar-toolbar"
     });
-</script>
+</script> -->
 
 ### Background
 
-TEP EI's rush organization underwent an overhaul ( ͡° ͜ʖ ͡°) at the beginning of the Fall 2016 semester headed by Matt Johnson, an ex-Rush Chairman who'd noticed a huge *de jure* imbalance in brothers' labor and time commitments under the existing system: a single individual handling all aspects of rush event planning. By forming Events, Marketing, and Budget Committees, we distributed the workload more evenly among active brothers. We also hopefully phoenixed a chair position which incumbents now might even *want* to hold repeatedly.
+TEP EI's rush organization underwent an overhaul ( ͡° ͜ʖ ͡°) at the beginning of the Fall 2016 semester headed by Matt Johnson, an ex-Rush Chairman who'd noticed a huge _de jure_ imbalance in brothers' labor and time commitments under the existing system: a single individual handling all aspects of rush event planning. By forming Events, Marketing, and Budget Committees, we distributed the workload more evenly among active brothers. We also hopefully phoenixed a chair position which incumbents now might even _want_ to hold repeatedly.
 
 I volunteered to be the first Marketing Chairman, in part so that we'd be able to advertise for events with a reusable calendar design. My intent was to
 
