@@ -6,9 +6,10 @@ tag:
   - art
 ---
 
-<!-- TODO Fix CodePen embed -->
-<p data-height="265" data-theme-id="0" data-slug-hash="rpeQbM" data-default-tab="html,result" data-user="dawneraq" data-embed-version="2" data-pen-title="liberation" class="codepen">See the Pen <a href="https://codepen.io/dawneraq/pen/rpeQbM/">liberation</a> by Andrew Aquino (<a href="https://codepen.io/dawneraq">@dawneraq</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<iframe height="500" style="width: 100%;" scrolling="no" title="liberation" src="https://codepen.io/dawneraq/embed/rpeQbM?height=500&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/dawneraq/pen/rpeQbM'>liberation</a> by Andrew Aquino
+  (<a href='https://codepen.io/dawneraq'>@dawneraq</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 This is my first crack at code poetry. It was an Art & Code & Interactivity assignment, so naturally, the requirements were few and highly open to interpretation:
 
