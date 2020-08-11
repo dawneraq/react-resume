@@ -4,7 +4,8 @@ date: 2016-09-25
 projects: true
 tag:
   - art
-image: /assets/images/attachment-rgb-thumbnail.jpg
+# image: /assets/images/attachment-rgb-thumbnail.jpg
+# imageAlt: bar
 ---
 
 <!-- TODO Fix OpenSeadragon embed -->
@@ -20,6 +21,10 @@ image: /assets/images/attachment-rgb-thumbnail.jpg
         toolbar: "attachment-suffering-toolbar"
     });
 </script> -->
+
+![Collage: Attachment Is the Root of All Suffering](https://raw.githubusercontent.com/dawneraq/dawneraq.github.io/master/assets/images/attachment-rgb-thumbnail.jpg)
+
+**Note:** This blurry thumbnail doesn't do the piece justice, so I'm working on getting the full-sized image to display here. Until then, check out [the old post here](https://dawneraq.github.io/attachment-suffering/)!
 
 This is a collage I made for ARTS-1020 Media Studio: Imaging. As a portrait of my girlfriend Kayla that's also a study of light values, it explores the feelings of anxiety that come with love, and having to accept the possibility that the object of your desire can be lost or destroyed.
 

@@ -5,6 +5,8 @@ projects: true
 tag:
   - TEP
   - design
+# image: baz
+# imageAlt: qux
 ---
 
 <!-- TODO link design thumbnail in Front Matter for Open Graph -->

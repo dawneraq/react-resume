@@ -5,8 +5,8 @@ projects: true
 tag:
   - TEP
   - design
-external-image: true
 image: https://raw.githubusercontent.com/dawneraq/gh-pages-resources/master/calendar-thumbnail.png
+# imageAlt: foo
 ---
 
 <!-- TODO link calendar thumbnail in Front Matter for Open Graph -->
