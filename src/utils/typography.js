@@ -1,6 +1,7 @@
 import Typography from "typography"
 
 const typography = new Typography({
+  baseLineHeight: 1.7,
   googleFonts: [
     {
       name: "Rubik",

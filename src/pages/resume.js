@@ -15,7 +15,7 @@ const Resume = ({ data }) => {
         href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
         rel="stylesheet"
       />
-      <main className="resume-page py-1 px-6">
+      <main className="resume-page py-1 px-6 leading-6">
         <Basics {...resumeData.basics} />
         {/* TODO This commented line doesn't apply 3-column layout to print styles */}
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-2"> */}

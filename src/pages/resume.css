@@ -6,3 +6,7 @@
   width: 8.5in;
   margin: 0 auto;
 }
+
+@page {
+  margin: 0.125in 0.125in 0.125in 0.125in;
+}
