@@ -19,6 +19,23 @@
   },
   "workExperience": [
     {
+      "company": "Chairish",
+      "position": "UI Engineer",
+      "startDate": "December 2020",
+      "details": [
+        "Developing accessible interfaces for a Django ecommerce website with an emphasis on modern CSS."
+      ]
+    },
+    {
+      "company": "me",
+      "position": "Freelance Web Developer",
+      "startDate": "January 2017",
+      "details": [
+        "Created a drag-and-drop shipping label editor for a screen printing shop that reduced order fulfillment time by 25%.",
+        "Redesigned and developed a public-facing static website and logo for an ear, neck, and throat medical practice."
+      ]
+    },
+    {
       "company": "Tallan",
       "position": "Senior UX Consultant",
       "startDate": "July 2018",
@@ -31,32 +48,14 @@
       ]
     },
     {
-      "company": "Troy Shirt Co.",
-      "position": "Web Developer Intern",
-      "startDate": "November 2017",
-      "endDate": "March 2018",
-      "details": [
-        "Created an AngularJS drag-and-drop shipping label editor that reduced order fulfillment time by 25%."
-      ]
-    },
-    {
       "company": "AT&T",
       "position": "Applications Developer Intern",
       "startDate": "June 2017",
       "endDate": "August 2017",
       "details": [
-        "Prototyped CSS animations with AngularJS on att.com's device recommender page as part of an initiative to convert 40% of device upgrades to online.",
+        "Prototyped CSS animations on att.com's device recommender page in an initiative to convert 40% of device upgrades to online.",
         "Placed 2nd in Intern Coding Challenge to build a company messenger chatbot, and within top 5 for Best Code, Best Pitch, and Best Video.",
         "Served as intern Scrum master, set up Node.js boilerplate code, created MongoDB database and API for user information, and presented sales pitch."
-      ]
-    },
-    {
-      "company": "Capital Region Otolaryngology",
-      "position": "Web Developer",
-      "startDate": "January 2017",
-      "endDate": "May 2017",
-      "details": [
-        "Redesigned and developed a public-facing Jekyll website and logo for an ear, neck, and throat medical practice."
       ]
     },
     {
@@ -65,8 +64,8 @@
       "startDate": "May 2016",
       "endDate": "August 2016",
       "details": [
-        "Designed and developed ElasticSearch Nexus, an internal dashboard application which displays visualizations of process log data.",
-        "Created UIs to add, modify, and delete user accounts and visualizations using an in-house AngularJS framework."
+        "Designed and developed an internal dashboard application which displays visualizations of process log data from ElasticSearch.",
+        "Created UIs to manage user accounts and visualizations using an in-house AngularJS framework."
       ]
     },
     {
@@ -84,7 +83,7 @@
       "name": "FretZone",
       "date": "April 2020",
       "recipient": "Open Source",
-      "description": "Recreating Guitar Pro tab editor to learn React/Redux."
+      "description": "Recreating Guitar Pro tab editor to learn React."
     },
     {
       "name": "Lune",
@@ -172,7 +171,7 @@
         "three.js",
         "jQuery",
         "Jekyll",
-        "Bootstrap"
+        "Django"
       ]
     },
     {
@@ -180,7 +179,7 @@
       "keywords": ["Git", "gulp", "Netlify"]
     },
     {
-      "name": "Design",
+      "name": "Design Tools",
       "keywords": [
         "Figma",
         "Sketch",

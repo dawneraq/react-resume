@@ -66,11 +66,13 @@ const Work = ({ workExperience }) => (
         <li key={job.company}>
           <p className="mb-0">
             <strong className="text-lg">{job.position}</strong>{" "}
-            {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-            <span className="text-gray-600">// {job.company}</span>
+            {job.company !== "me" && (
+              // eslint-disable-next-line react/jsx-no-comment-textnodes
+              <span className="text-gray-600">// {job.company}</span>
+            )}
           </p>
           <p className="mb-0 text-sm">
-            {job.startDate} &ndash; {job.endDate}
+            {job.startDate} &ndash; {job.endDate || "Present"}
           </p>
           <ul className="mt-0">
             {job.details.map((detail, i) => (
