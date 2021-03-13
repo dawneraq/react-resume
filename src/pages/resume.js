@@ -1,6 +1,6 @@
 import React from "react"
 import SEO from "../gatsby-theme-blog/components/seo"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import "./resume.css"
 
@@ -39,9 +39,7 @@ const Basics = ({ name, headline, location, email, siteURL }) => (
   <section className="mb-3">
     <div className="flex justify-between items-stretch">
       <div>
-        <Link to={`/`}>
-          <h1 className="text-6xl">{name}</h1>
-        </Link>
+        <h1 className="text-6xl">{name}</h1>
         <strong className="text-xl">{headline}</strong>
       </div>
       <div className="flex flex-col justify-between text-right text-lg">
