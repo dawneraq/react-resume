@@ -7,6 +7,11 @@
   margin: 0 auto;
 }
 
+/* TODO Build Tailwind locally and pass to config */
+.text-2xl {
+  font-size: 1.4rem !important; /* Default is 1.5rem */
+}
+
 @page {
   margin: 0.125in 0.125in 0.125in 0.125in;
 }

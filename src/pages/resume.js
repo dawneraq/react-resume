@@ -15,7 +15,7 @@ const Resume = ({ data }) => {
         href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
         rel="stylesheet"
       />
-      <main className="resume-page py-1 px-6 leading-6">
+      <main className="resume-page py-2 px-6 leading-6">
         <Basics {...resumeData.basics} />
         {/* TODO This commented line doesn't apply 3-column layout to print styles */}
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-2"> */}
@@ -144,13 +144,15 @@ const Honors = ({ activitiesAndHonors }) => (
 
 const Projects = ({ projects }) => (
   <section>
-    <h2 className="text-2xl mb-1">Projects</h2>
+    <h2 className="text-2xl mb-1">Open Source Projects</h2>
     <ul>
       {projects.slice(0, 3).map(project => (
         <li key={project.name}>
           <strong>{project.name}</strong>{" "}
           {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-          <span className="text-gray-600">// {project.recipient}</span>
+          {project.recipient && (
+            <span className="text-gray-600">// {project.recipient}</span>
+          )}
           <p>{project.description}</p>
         </li>
       ))}

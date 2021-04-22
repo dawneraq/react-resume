@@ -23,7 +23,10 @@
       "position": "UI Engineer",
       "startDate": "December 2020",
       "details": [
-        "Developing accessible interfaces for a Django ecommerce website with an emphasis on modern CSS."
+        "Developing accessible interfaces for a Django ecommerce site.",
+        "Leading an initiative to research and adopt new bundler tools that could speed up frontend builds by over 97%.",
+        "Documented 6 year-old idiosyncratic frontend build process to aid in onboarding new engineers.",
+        "Mentored teammates on flexbox/grid CSS layouts during development and in code reviews."
       ]
     },
     {
@@ -31,6 +34,7 @@
       "position": "Freelance Web Developer",
       "startDate": "January 2017",
       "details": [
+        "Designing and developing a professional profile site for an actor, styled with Tailwind CSS and hosted on Netlify.",
         "Created a drag-and-drop shipping label editor for a screen printing shop that reduced order fulfillment time by 25%.",
         "Redesigned and developed a public-facing static website and logo for an ear, neck, and throat medical practice."
       ]
@@ -42,7 +46,7 @@
       "endDate": "June 2020",
       "details": [
         "Designed and redesigned web application UI/UX from user flows to interactive prototypes for various clients including Valassis Digital and Experian.",
-        "Led development team in user-centric design processes.",
+        "Led engineering team in user-centric design workshops.",
         "Implemented designs with both AngularJS and Angular.",
         "Built reporting data visualizations with D3.js."
       ]
@@ -53,9 +57,7 @@
       "startDate": "June 2017",
       "endDate": "August 2017",
       "details": [
-        "Prototyped CSS animations on att.com's device recommender page in an initiative to convert 40% of device upgrades to online.",
-        "Placed 2nd in Intern Coding Challenge to build a company messenger chatbot, and within top 5 for Best Code, Best Pitch, and Best Video.",
-        "Served as intern Scrum master, set up Node.js boilerplate code, created MongoDB database and API for user information, and presented sales pitch."
+        "Prototyped CSS animations on att.com's device recommender page as part of an effort to convert 40% of device upgrades to online."
       ]
     },
     {
@@ -64,8 +66,7 @@
       "startDate": "May 2016",
       "endDate": "August 2016",
       "details": [
-        "Designed and developed an internal dashboard application which displays visualizations of process log data from ElasticSearch.",
-        "Created UIs to manage user accounts and visualizations using an in-house AngularJS framework."
+        "Designed and developed UIs an internal dashboard application which displays visualizations of process log data."
       ]
     },
     {
@@ -82,20 +83,18 @@
     {
       "name": "FretZone",
       "date": "April 2020",
-      "recipient": "Open Source",
       "description": "Recreating Guitar Pro tab editor to learn React."
     },
     {
       "name": "Lune",
       "date": "Fall 2017",
-      "recipient": "Computer Graphics Class",
       "description": "Rendered a stereoscopic 3D model of the Moon on Google Cardboard using three.js."
     },
     {
       "name": "Chicken Co-Op",
       "date": "Fall 2017",
       "recipient": "HackRPI 2017",
-      "description": "Won Best Game for an Angular cooperative mobile party game."
+      "description": "Won Best Game for a cooperative mobile/desktop party game."
     },
     {
       "name": "Shuttle Signups",
@@ -162,16 +161,16 @@
       "keywords": [
         "React",
         "Redux",
-        "Gatsby",
         "Jest",
         "Angular",
         "AngularJS",
         "Node.js",
         "D3.js",
         "three.js",
-        "jQuery",
+        "Eleventy",
         "Jekyll",
-        "Django"
+        "Django",
+        "jQuery"
       ]
     },
     {
